@@ -180,9 +180,9 @@ section#about {
 
 .formulario{
     background-color: var(--gris);
-    width: min(70rem, 100%);
+    width: 100%;
     margin: 0 auto;
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 2rem;
 }
 
@@ -258,6 +258,7 @@ margin: 2.5rem;
    }
 }
 
+
 .boton:hover{
     cursor: grab;
 }
@@ -299,3 +300,30 @@ margin: 2.5rem;
 }
 
 }
+
+
+.video {
+    display: inline-flex;               
+    justify-content: space-between;  
+    align-items: center;         
+    gap: 50px;                   
+    margin: 0 auto;              
+}
+
+.video video {
+    width: 300px;                
+    height: auto;               
+    border: 5px solid #ffcb05;  
+    border-radius: 10px;        
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.video video:hover {
+    border-color: #129bf7;     
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);  
+}
+
+
+
+
+

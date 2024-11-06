@@ -62,10 +62,70 @@
         </script>
         <h2>¡Gracias por tu visita!</h2>
         
-        <div class="banner">
-            <img src="images/Banner.png" alt="Banner de Pokémon" style="width: 100%; height: 200px; display: block; margin: 0 auto;">
-        </div>
     </section>
+    <!-- FORMULARIO -->
+    <!-- <section class="text">
+        <fieldset class="fieldset-bg">
+        <h2>Contacto</h2>
+        <p>Si tienes alguna duda o quieres saber más, no dudes en contactarnos.</p>
+        <form action="#">
+            <input type="text" placeholder="Escribe tu nombre" required>
+            <input type="email" placeholder="Escribe tu correo electrónico" required>
+            <textarea placeholder="Escribe tu mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        </fieldset>
+    </section> -->
+    <section>
+        <h2 class="text">CONTACTO</h2>
+        <form class="formulario text">
+        <fieldset>
+            <legend class="texto">Contactar para más información</legend>
+          <div class="campos">
+                <div class="campo">
+                    <label for="name">
+                    Nombre:<input class="input-text" type="text" placeholder="Nombre del usuario" name="name">
+                    </label>
+                </div>
+                <div class="campo">
+                    <label for="email">
+                    Correo electrónico:<input class="input-text" type="email" placeholder="Ejemplo@gmail.com" required="true">
+                    </label>
+                </div>
+                <div class="campo">
+                    <label for="celphone" name="celphone">
+                    Telefono:<input class="input-text" type="tel" placeholder="Ingrese su Telefono" required="true" name="celphone">
+                    </label>
+                    </div>
+                 <div class="campo">
+                    <label for="options">
+                    En que podemos mejorar:
+                    <select class="input-text" name="options" required>
+                        <option value="0">Opciones</option>
+                        <option value="1">Faltan más pokemones.</option>
+                        <option value="2">Faltan una sección de juegos.</option>
+                        <option value="3">Trada mucho en cargar.</option>
+                    </select>
+                    </label>
+                </div>
+            <div class="campo">
+                <label for="enviar">
+                    <button class="boton bon-w100 centrado_2" type="submit">Enviar</button>
+                </label>
+            </div>
+            <div class="campo">
+                <labe>
+                    <button class="boton bon-w100 centrado_2" type="reset">Borrar</button>
+                </labe>
+            </div>
+          </div>
+        </fieldset>
+    </form>
+</section>
+
+<div class="banner">
+    <img src="images/Banner.png" alt="Banner de Pokémon" style="width: 100%; height: 200px; display: block; margin: 0 auto;">
+</div>
 
     <footer class="footer">
         <p>&copy; 2024 Pokémon Mundo. Todos los derechos reservados.</p>
