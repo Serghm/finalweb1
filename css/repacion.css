@@ -11,13 +11,16 @@ body {
 
 header {
     background-color: #ffcb05; 
-    padding: 20px;
+    padding: 50px;
     text-align: center;
+    font-size: 50px;
+    text-shadow: #333;
+    text-overflow: ellipsis;
 }
 
 header h1 {
     margin: 0;
-    font-size: 2.5rem;
+    font-size: 2.5 rem;
     color: #3d7dca; 
 }
 
@@ -29,8 +32,8 @@ nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    padding: 0;
-    margin: 0;
+    padding: 10px;
+    margin: 10px;
 }
 
 nav ul li {

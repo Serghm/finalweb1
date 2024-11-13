@@ -9,7 +9,7 @@ html{
     font-size: 62.5%;
     box-sizing: border-box;
 }
-.pixelify-sans-uniquifier> {
+.pixelify-sans-uniquifier {
   font-family: "Pixelify Sans", sans-serif;
 }
 .k2d-thin {
@@ -305,7 +305,8 @@ margin: 2.5rem;
 .video {
     display: inline-flex;               
     justify-content: space-between;  
-    align-items: center;         
+    align-items: center;
+    padding: 25px;
     gap: 50px;                   
     margin: 0 auto;              
 }
@@ -324,6 +325,12 @@ margin: 2.5rem;
 }
 
 
-
+.evolucion {
+    font-size: 5rem;                   /* Ajusta el tamaño de la fuente como desees */
+    color: #129bf7;                    /* Color del texto (azul en este caso) */
+    margin: 0;  
+    text-align: center;
+       
+}
 
 
